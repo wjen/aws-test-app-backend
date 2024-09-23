@@ -42,3 +42,4 @@ jobs:
           remote_host: 34.219.78.65
           remote_user: ubuntu
           remote_key: ${{ secrets.EC2_SSH_KEY }}
+          path: ./dist
